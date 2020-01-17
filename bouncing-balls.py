@@ -1,4 +1,4 @@
-# BOUNCING BALLS
+# BOUNCING BALLS (6 KYU)
 #
 # A child is playing with a ball on the nth floor of a tall building. The height of this floor, h, is known.
 #

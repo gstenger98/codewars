@@ -1,4 +1,4 @@
-# MUMBLING (KYU 7)
+# MUMBLING (7 KYU)
 #
 # This time no story, no theory. The examples below show you how to write function accum:
 #
