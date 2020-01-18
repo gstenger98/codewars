@@ -31,3 +31,19 @@ def sum_pairs(ints, s):
             return [x,ints[i]]
         t.add(ints[i])
     return None
+
+# NOTE:
+# I initially wrote the following method:
+#
+# l = len(ints)
+#     for i in range(1, l):
+#         for j in range(i):
+#             x = ints[i]
+#             y = ints[j]
+#             if x + y == s:
+#                 return [y, x]
+#     return None
+#
+# This method works in theory, but it timed out on some of the larger test cases
+# that they gave me on codewars. My initial method was O(n ** 2), and the method
+# I ended up sumbitting was roughly O(n), since sets are about constant time.
